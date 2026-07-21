@@ -51,13 +51,16 @@ img { max-width: 100%; display: block; }
   justify-content: space-between;
 }
 .brand {
-  font-weight: 800;
-  font-size: 1.3rem;
-  letter-spacing: 0.05em;
-  background: linear-gradient(90deg, var(--accent), var(--accent-2));
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
+  display: flex;
+  align-items: center;
+}
+.brand img {
+  display: block;
+  height: 34px;
+  width: auto;
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 4px 10px;
 }
 .nav-links {
   display: flex;

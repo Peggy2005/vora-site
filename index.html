@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>VORA — The CUDA of Visual AI</title>
+<meta name="description" content="VORA｜平價、易用、可落地的邊緣 AI 影像平台。一鍵訓練、一鍵部署，打造智慧視覺應用生態。">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>👁️</text></svg>">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="#top" class="brand">VORA</a>
+    <nav class="nav-links" id="navLinks">
+      <a href="#problem">痛點</a>
+      <a href="#advantages">優勢</a>
+      <a href="#architecture">技術架構</a>
+      <a href="#pricing">定價</a>
+      <a href="#usecases">應用場景</a>
+      <a href="#competitors">競品比較</a>
+      <a href="#roadmap">發展路線</a>
+      <a href="#contact" class="cta-link">聯絡我們</a>
+    </nav>
+    <button class="nav-toggle" id="navToggle" aria-label="開啟選單">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main id="top">
+
+  <section class="hero">
+    <div class="hero-bg" aria-hidden="true"></div>
+    <div class="container hero-inner">
+      <p class="eyebrow">The CUDA of Visual AI</p>
+      <h1>讓每個角落的攝影機，<br>都擁有 AI 大腦。</h1>
+      <p class="hero-sub">VORA 是影像 AI 領域的核心引擎，整合硬體加速與軟體生態，
+        讓開發者與中小企業以低成本、低門檻快速部署智慧視覺應用。</p>
+      <div class="hero-cta">
+        <a href="#contact" class="btn btn-primary">預約產品展示</a>
+        <a href="#architecture" class="btn btn-ghost">了解技術架構</a>
+      </div>
+      <div class="hero-stats">
+        <div><strong>80%</strong><span>降低開發成本</span></div>
+        <div><strong>80%+</strong><span>縮短開發週期</span></div>
+        <div><strong>6</strong><span>步驟全自動訓練</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="problem" class="section">
+    <div class="container">
+      <p class="section-label">市場痛點</p>
+      <h2>監控系統，早該進化了</h2>
+      <div class="grid-2">
+        <div class="card">
+          <span class="card-num">01</span>
+          <h3>成本與技術門檻過高</h3>
+          <p>傳統 AI 影像解決方案動輒需要專業團隊與昂貴硬體，中小企業難以負擔，導入意願低。</p>
+        </div>
+        <div class="card">
+          <span class="card-num">02</span>
+          <h3>只能錄影，無法主動示警</h3>
+          <p>現有監控系統多為被動錄影存證，缺乏即時分析與主動預警能力，事故發生才回放已為時已晚。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="advantages" class="section section-alt">
+    <div class="container">
+      <p class="section-label">核心優勢</p>
+      <h2>三大核心優勢</h2>
+      <div class="grid-3">
+        <div class="feature">
+          <div class="feature-icon">💰</div>
+          <h3>平價且易用</h3>
+          <p>大幅降低導入門檻，讓中小企業也能負擔智慧視覺方案。</p>
+        </div>
+        <div class="feature">
+          <div class="feature-icon">⚙️</div>
+          <h3>類 CUDA 平台驅動架構</h3>
+          <p>標準化底層架構，加速開發者與硬體廠商的整合效率。</p>
+        </div>
+        <div class="feature">
+          <div class="feature-icon">🛍️</div>
+          <h3>AI 應用商城生態閉環</h3>
+          <p>從模型訓練到應用上架，形成可持續成長的生態系統。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="architecture" class="section">
+    <div class="container">
+      <p class="section-label">技術架構</p>
+      <h2>本地自訓練系統｜六步驟全自動化</h2>
+      <ol class="steps">
+        <li><span>1</span>提示詞輸入 — 客戶輸入需求描述</li>
+        <li><span>2</span>AI 資料搜尋 — 自動搜尋網路資料</li>
+        <li><span>3</span>自動標註 — 智能標註系統</li>
+        <li><span>4</span>模型生成</li>
+        <li><span>5</span>品質驗證 — 自動評估準確度與效能</li>
+        <li><span>6</span>一鍵部署 — 無縫部署至機台</li>
+      </ol>
+
+      <div class="grid-2 arch-features">
+        <ul class="check-list">
+          <li>模型適配 — 支援多種模型格式，自動優化硬體參數</li>
+          <li>一鍵部署 — 從模型導入到邊緣部署全流程一鍵完成</li>
+          <li>零門檻 — 無需 AI 專業知識，提示詞啟動訓練</li>
+          <li>本地化部署 — 資料全程本地處理，保障企業數據隱私</li>
+          <li>OTA 遠程更新 — 零停機、延長硬體壽命、持續模型迭代</li>
+        </ul>
+
+        <table class="table">
+          <thead><tr><th>雲平台元件</th><th>功能</th></tr></thead>
+          <tbody>
+            <tr><td>KDC</td><td>開發控制平台 — 模型訓練、測試、版本控制</td></tr>
+            <tr><td>DMP</td><td>IoT 智慧管理平台 — 設備監控、數據分析、智能告警</td></tr>
+            <tr><td>Cloud VMS</td><td>雲端影像管理 — 儲存、回放、AI 分析、跨站點管理</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section id="pricing" class="section section-alt">
+    <div class="container">
+      <p class="section-label">定價模式</p>
+      <h2>透明、彈性的計費方案</h2>
+      <div class="grid-3 pricing-grid">
+        <div class="price-card">
+          <h3>本地訓練</h3>
+          <p class="price">NT$10,000 <span>／次生成模型</span></p>
+          <p class="price-desc">按需計費，模型即用即付</p>
+        </div>
+        <div class="price-card featured">
+          <h3>廠商年度授權</h3>
+          <p class="price">NT$50,000 <span>／年／廠商</span></p>
+          <p class="price-desc">含 SDK＋完整技術支援</p>
+        </div>
+        <div class="price-card">
+          <h3>設備月租</h3>
+          <p class="price">NT$100–150 <span>／月／設備</span></p>
+          <p class="price-desc">彈性擴充，無需大量前期投資</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="usecases" class="section">
+    <div class="container">
+      <p class="section-label">應用場景</p>
+      <h2>從穿戴到場域，全面守護</h2>
+      <div class="grid-3">
+        <div class="card"><h3>穿戴安全監測</h3><p>即時偵測人員安全狀態，降低職場意外風險。</p></div>
+        <div class="card"><h3>危險動作分析</h3><p>持槍、暴力等異常行為即時辨識與預警。</p></div>
+        <div class="card"><h3>人流與跌倒偵測</h3><p>掌握場域人流動向，即時發現跌倒等突發事件。</p></div>
+      </div>
+      <p class="section-label" style="margin-top:3rem">目標客群</p>
+      <div class="grid-2">
+        <div class="card">
+          <h3>監控使用者</h3>
+          <p>便利店、銀行、學校、養老院、交通執法、工業園區</p>
+        </div>
+        <div class="card">
+          <h3>系統整合廠商</h3>
+          <p>監控設備廠商、安防系統整合商、智慧城市解決方案供應商</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="competitors" class="section section-alt">
+    <div class="container">
+      <p class="section-label">競品分析</p>
+      <h2>為什麼選擇 VORA</h2>
+      <table class="table table-wide">
+        <thead><tr><th>競品</th><th>弱點</th></tr></thead>
+        <tbody>
+          <tr><td>NVIDIA Jetson</td><td>高效能但價格昂貴，門檻高，需專業團隊，中小企業難負擔</td></tr>
+          <tr><td>ADLINK EVA SDK</td><td>功能完整但整合複雜，學習曲線陡峭，無一站式方案</td></tr>
+          <tr><td>i-PRO／海康威視</td><td>硬體綁定限制多，擴展性差，無法自由選配 AI 應用</td></tr>
+        </tbody>
+      </table>
+      <p class="market-note">全球智慧監控市場預估於 2028 年突破千億美元，年複合成長率（CAGR）超過 15%。</p>
+    </div>
+  </section>
+
+  <section id="roadmap" class="section">
+    <div class="container">
+      <p class="section-label">發展路線</p>
+      <h2>Roadmap</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-year">2026</div>
+          <div class="timeline-content">
+            <h3>產品打底</h3>
+            <p>核心產品開發完善、市場教育推廣、早期客戶導入驗證</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-year">2027</div>
+          <div class="timeline-content">
+            <h3>平台強化</h3>
+            <p>功能升級、中小企業市場拓展、應用商城生態建立</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section section-cta">
+    <div class="container cta-inner">
+      <h2>準備好讓您的監控系統更聰明了嗎？</h2>
+      <p>與我們聊聊您的場域需求，VORA 團隊將為您規劃最合適的導入方案。</p>
+      <a href="mailto:contact@vora.ai" class="btn btn-primary">聯絡我們</a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="container footer-inner">
+    <span>© <span id="year"></span> VORA. All rights reserved.</span>
+    <span>The CUDA of Visual AI</span>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>

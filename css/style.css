@@ -56,11 +56,8 @@ img { max-width: 100%; display: block; }
 }
 .brand img {
   display: block;
-  height: 24px;
+  height: 42px;
   width: auto;
-  background: #ffffff;
-  border-radius: 6px;
-  padding: 3px 8px;
 }
 .nav-links {
   display: flex;

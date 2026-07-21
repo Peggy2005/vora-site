@@ -350,6 +350,32 @@ img { max-width: 100%; display: block; }
   object-fit: cover;
   background: var(--bg-alt);
 }
+.video-wrap {
+  position: relative;
+}
+.play-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  border: none;
+  background: rgba(10, 14, 20, 0.65);
+  color: #ffffff;
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: opacity 0.2s, transform 0.2s;
+}
+.play-overlay:hover { transform: translate(-50%, -50%) scale(1.08); }
+.play-overlay.is-hidden {
+  opacity: 0;
+  pointer-events: none;
+}
 .gallery-item figcaption {
   padding: 0.9rem 1.1rem;
   font-size: 0.88rem;

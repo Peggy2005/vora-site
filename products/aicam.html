@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>全域哨兵｜VORA AI Cam — 星啟智能有限公司</title>
+<meta name="description" content="VORA AI Cam：邊緣視覺 AI 攝影機平台，本地即時判斷、極低頻寬、OTA 持續升級，一鍵訓練、一鍵部署。">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>✨</text></svg>">
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+<header class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="../index.html#top" class="brand">星啟智能</a>
+    <nav class="nav-links" id="navLinks">
+      <a href="../index.html#about">關於我們</a>
+      <a href="../index.html#products">產品</a>
+      <a href="helmet.html">智能頭盔</a>
+      <a href="aicam.html">AI Cam</a>
+      <a href="../index.html#contact" class="cta-link">聯絡我們</a>
+    </nav>
+    <button class="nav-toggle" id="navToggle" aria-label="開啟選單">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main>
+
+  <section class="hero">
+    <div class="hero-bg" aria-hidden="true"></div>
+    <div class="container">
+      <p class="breadcrumb"><a href="../index.html#products">產品</a> / AI Cam</p>
+      <div class="product-hero">
+        <div>
+          <p class="eyebrow">邊緣 AI 攝影機平台</p>
+          <h1>全域哨兵<br>VORA AI Cam</h1>
+          <p class="hero-sub">The CUDA of Visual AI — 讓每一台攝影機，都能成為 AI 智慧哨兵。
+            將人臉辨識、入侵偵測、煙火偵測、跌倒偵測等判斷固化於設備端，實現毫秒級反應與極低頻寬。</p>
+          <div class="hero-cta">
+            <a href="../index.html#contact" class="btn btn-primary">洽詢合作／採購</a>
+          </div>
+        </div>
+        <div class="product-hero-media" aria-hidden="true">📷</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt">
+    <div class="container">
+      <p class="section-label">核心功能</p>
+      <h2>邊緣 AI，設備端即完成判斷</h2>
+      <div class="grid-3">
+        <div class="feature">
+          <div class="feature-icon">⚡</div>
+          <h3>邊緣即時判斷</h3>
+          <p>影像不必全程上雲，設備端毫秒級完成 AI 事件判斷。</p>
+        </div>
+        <div class="feature">
+          <div class="feature-icon">🧠</div>
+          <h3>多種內建偵測模型</h3>
+          <p>人臉辨識、入侵偵測、煙火／煙霧偵測、跌倒偵測、移動分析、目標追蹤。</p>
+        </div>
+        <div class="feature">
+          <div class="feature-icon">📶</div>
+          <h3>極低頻寬</h3>
+          <p>只回傳事件、截圖與分析結果，不上傳完整影像。</p>
+        </div>
+        <div class="feature">
+          <div class="feature-icon">🔒</div>
+          <h3>隱私保護</h3>
+          <p>完整影像留在本地，降低外洩與合規風險。</p>
+        </div>
+        <div class="feature">
+          <div class="feature-icon">🌐</div>
+          <h3>可離線使用</h3>
+          <p>不依賴雲端連線，斷網仍可持續運作。</p>
+        </div>
+        <div class="feature">
+          <div class="feature-icon">🔄</div>
+          <h3>OTA 遠端更新</h3>
+          <p>韌體與 AI 模型可持續升級，設備非一次性規格。</p>
+        </div>
+      </div>
+      <div class="grid-2 arch-features" style="margin-top:1.5rem">
+        <ul class="check-list">
+          <li>App 即時通知 — 事件發生時手機立即推播警報（含地點、時間、信心度，如「入侵警報 98.2%」）</li>
+          <li>開放生態 — 透過 SDK／API 與 Model Store 串接第三方模型與系統整合商</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <p class="section-label">技術架構</p>
+      <h2>Edge AI Pipeline</h2>
+      <p style="color:var(--text-dim); margin-bottom:1.5rem; max-width:70ch;">
+        Sensor → ISP（影像處理／降噪）→ Image Scaling（1920×1080 降至 640×360 降低運算量）→
+        AI Hardware Engine（VORA AI Engine：圖片縮放／人臉檢測／物品檢測／移動分析／目標追蹤）→
+        NPU（神經網路推論）→ Event Engine（事件判斷過濾）→ App／Cloud
+      </p>
+      <p style="color:var(--text-dim); margin-bottom:2.5rem; max-width:70ch;">
+        設計理念：固定場景 × 固定模型 × 固定流程，用專用晶片＋NPU 取代大型雲端模型 —
+        「更小模型 × 更快硬體 ＝ 更高 AI Efficiency」。
+      </p>
+
+      <p class="section-label">本地自訓練系統｜六步驟全自動化</p>
+      <ol class="steps">
+        <li><span>1</span>提示詞輸入 — 客戶輸入需求描述</li>
+        <li><span>2</span>AI 資料搜尋 — 自動搜尋網路資料</li>
+        <li><span>3</span>自動標註 — 智能標註系統</li>
+        <li><span>4</span>模型生成</li>
+        <li><span>5</span>品質驗證 — 自動評估準確度與效能</li>
+        <li><span>6</span>一鍵部署 — 無縫部署至機台</li>
+      </ol>
+
+      <table class="table">
+        <thead><tr><th>雲平台元件</th><th>功能</th></tr></thead>
+        <tbody>
+          <tr><td>KDC</td><td>開發控制平台 — 模型訓練、測試、版本控制</td></tr>
+          <tr><td>DMP</td><td>IoT 智慧管理平台 — 設備監控、數據分析、智能告警</td></tr>
+          <tr><td>Cloud VMS</td><td>雲端影像管理 — 儲存、回放、AI 分析、跨站點管理</td></tr>
+        </tbody>
+      </table>
+
+      <p class="market-note">產品矩陣：VORA Lite（單機基礎偵測）／Pro（多模型多設備管理）／Enterprise（雲平台大型部署）／SDK（設備商整合工具）。</p>
+    </div>
+  </section>
+
+  <section class="section section-alt">
+    <div class="container">
+      <p class="section-label">應用場景</p>
+      <h2>從安防到智慧城市</h2>
+      <div class="grid-2">
+        <div class="card">
+          <h3>市場切入路線</h3>
+          <p>監控安防（入侵／人形／煙火／跌倒偵測）→ 工廠倉儲（工安事件、危險區域入侵、物品遺留、機台異常）→ 零售商場（人流分析、排隊偵測、貨架異常）→ 交通／園區／智慧城市（車流、多場域門禁管理）</p>
+        </div>
+        <div class="card">
+          <h3>目標客群</h3>
+          <p>監控設備商、系統整合商、終端企業、AI 模型開發者；便利店、銀行、學校、養老院、交通執法、工業園區</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <p class="section-label">商業模式</p>
+      <h2>三層定價架構</h2>
+      <div class="grid-3 pricing-grid">
+        <div class="price-card">
+          <h3>Layer 1｜硬體</h3>
+          <p class="price">NT$5,000 <span>／台</span></p>
+          <p class="price-desc">AI Camera／模組，市場切入與場域驗證</p>
+        </div>
+        <div class="price-card featured">
+          <h3>Layer 2｜平台授權與管理</h3>
+          <p class="price">NT$50,000 <span>／年／廠商</span></p>
+          <p class="price-desc">含 SDK／API、平台使用權、技術支援；另有設備月租 NT$100–150／台或 NT$1,500／場域（代管版）</p>
+        </div>
+        <div class="price-card">
+          <h3>Layer 3｜模型生成與商城</h3>
+          <p class="price">NT$10,000 <span>／次／模型</span></p>
+          <p class="price-desc">模型商城成熟後抽成約 30%</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt">
+    <div class="container">
+      <p class="section-label">競品分析</p>
+      <h2>為什麼選擇 VORA AI Cam</h2>
+      <table class="table table-wide">
+        <thead><tr><th>競品</th><th>弱點</th></tr></thead>
+        <tbody>
+          <tr><td>NVIDIA Jetson</td><td>高效能但價格昂貴，門檻高，需專業團隊，中小企業難負擔</td></tr>
+          <tr><td>ADLINK EVA SDK</td><td>功能完整但整合複雜，學習曲線陡峭，無一站式方案</td></tr>
+          <tr><td>i-PRO／海康威視</td><td>硬體綁定限制多，擴展性差，無法自由選配 AI 應用</td></tr>
+        </tbody>
+      </table>
+      <p class="market-note">VORA 護城河：Edge Visual AI Runtime 跨設備標準化、特製化 AI Pipeline 效率、模型商城開發者生態、設備管理＋OTA＋資料閉環形成長期客戶黏著度。全球智慧監控市場預估 2028 年突破千億美元，CAGR 超過 15%。</p>
+    </div>
+  </section>
+
+  <section class="section section-cta">
+    <div class="container cta-inner">
+      <h2>準備好讓您的監控系統更聰明了嗎？</h2>
+      <p>與星啟智能聊聊您的場域需求，我們將為您規劃最合適的導入方案。</p>
+      <a href="../index.html#contact" class="btn btn-primary">聯絡我們</a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="container footer-inner">
+    <span>© <span id="year"></span> 星啟智能有限公司. All rights reserved.</span>
+    <span>AI 感知科技｜智能頭盔・AI Cam</span>
+  </div>
+</footer>
+
+<script src="../js/main.js"></script>
+</body>
+</html>
